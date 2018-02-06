@@ -1,9 +1,6 @@
 
 ---
 layout: default
-title: Kinh nghiệm
-permalink: kinh-nghiem.html
-excerpt: Các bài viết về kinh nghiệm du lịch
 ---
 <div id="index">
   <div class="category_detail">
