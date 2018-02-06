@@ -8,7 +8,11 @@ layout: default
 <div class="g-banner tags-banner {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }}" data-theme="{{ site.theme-color }}">
     <h2>TAGS</h2>
 </div>
-<h2> {{site.tags}} </h2>
+
+{% for tag in site.tags %}
+    <h2> {{tag}} </h2>
+{% endfor %}
+
 <h3>day la h3</h3>
 <main class="tags-content">
 
