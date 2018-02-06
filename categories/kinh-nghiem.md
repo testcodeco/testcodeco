@@ -7,7 +7,7 @@ layout: default
     <h1>Chuyện bên lề</h1>
     <p>Chuyện bên lề - là chuyên mục viết về mọi thứ liên quan đến cuộc sống của một thằng coder.</p>
   </div>
-    {% for post in site.categories['Kinh Nghiệm'] %}
+    {% for post in site.category['Kinh Nghiệm'] %}
 
     <article class="article-item">
 	<div class="post-cover">
